@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Charles Dennis — Local Government Finance Leader · CGMA, ACMA, CISA, MSc</title>
+<meta name="description" content="Charles Dennis is a CCAB-qualified (CGMA, ACMA), CISA-certified senior local-government finance leader with an MSc in Accounting & Finance — MTFS, budget setting, funding and income forecasting, capital governance, treasury and practical agentic AI. Project Finance Manager, Peterborough City Council." />
+<meta property="og:title" content="Charles Dennis — Local Government Finance · Capital · Treasury · AI" />
+<meta property="og:description" content="CCAB-qualified (CGMA, ACMA), CISA-certified and holding an MSc in Accounting & Finance. Senior local-government finance leader: MTFS, capital governance, treasury oversight and agentic AI in practice." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://finance.applied8.org/" />
+<link rel="canonical" href="https://finance.applied8.org/" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0B121E;        /* deep ledger navy */
+  --ink-2:#101B2C;      /* raised panel */
+  --paper:#F6F5F2;      /* warm executive paper */
+  --paper-2:#FFFFFF;    /* card */
+  --steel:#5B6472;      /* secondary text */
+  --line:#E3E1DA;       /* hairline */
+  --gold:#C9A227;       /* finance / governance signal */
+  --gold-soft:#EFE3B8;
+  --indigo:#4357E8;     /* AI / systems signal */
+  --muted:#8A93A3;      /* mono labels on dark */
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+  --serif:"Fraunces",Georgia,serif;
+  --sans:"Inter",ui-sans-serif,system-ui,sans-serif;
+  --maxw:1180px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--gold-soft);color:var(--ink)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--steel)}
+.gold{color:var(--gold)} .indigo{color:var(--indigo)}
+
+/* scroll progress hairline */
+#progress{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--gold),var(--indigo));z-index:60;transition:width .1s linear}
+
+/* ── Header ─────────────────────────────── */
+header{position:sticky;top:0;z-index:50;background:rgba(246,245,242,.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.brand{font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:.01em}
+.brand .dot{color:var(--gold)}
+.brand .qual{font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--steel);display:block;margin-top:-2px;text-transform:uppercase}
+.navlinks{display:flex;gap:28px;align-items:center}
+.navlinks a{font-size:14.5px;font-weight:500;color:var(--ink);position:relative}
+.navlinks a:hover{color:var(--indigo)}
+.navlinks a .ann{font-family:var(--mono);font-size:9.5px;color:var(--muted);display:block;text-align:center;text-transform:uppercase;letter-spacing:.08em}
+.navcta{background:var(--gold);color:var(--ink);padding:10px 18px;border-radius:6px;font-size:14px;font-weight:600;transition:.15s}
+.navcta:hover{background:#d9b63a;color:var(--ink);transform:translateY(-1px)}
+.menutoggle{display:none;background:none;border:none;font-size:26px;cursor:pointer;color:var(--ink)}
+
+/* ── Hero ───────────────────────────────── */
+.hero{position:relative;overflow:hidden;background:var(--ink);color:#fff;padding:96px 0 70px}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(1200px 520px at 85% -10%, rgba(67,87,232,.26), transparent 60%),
+  radial-gradient(900px 420px at -10% 110%, rgba(201,162,39,.15), transparent 55%);}
+.hero::after{content:"";position:absolute;top:0;right:0;bottom:0;width:360px;
+  background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);
+  background-size:34px 34px;mask-image:linear-gradient(to left,black,transparent);-webkit-mask-image:linear-gradient(to left,black,transparent);}
+.eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:26px;position:relative;z-index:2}
+.eyebrow .rule{width:52px;height:1px;background:var(--gold)}
+.eyebrow .mono{color:var(--gold)}
+.hero-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;position:relative;z-index:2}
+h1.name{font-family:var(--serif);font-weight:600;font-size:clamp(46px,6.4vw,82px);line-height:1.02;letter-spacing:-.02em}
+h1.name .thin{font-weight:400;color:#D8DDE6}
+.roleline{margin-top:24px;font-size:clamp(20px,2.6vw,28px);font-weight:500;color:#EDEFF4;line-height:1.35}
+.roleline em{font-family:var(--serif);font-style:italic;font-weight:500;color:var(--gold)}
+.roleline .tag{display:inline-block;padding:2px 12px;border:1px solid rgba(201,162,39,.6);border-radius:4px;font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;color:var(--gold);text-transform:uppercase;margin:6px 4px 0 0}
+.lede{margin-top:26px;max-width:640px;font-size:17.5px;color:#C6CCD8;line-height:1.7}
+.lede strong{color:#EDEFF4;font-weight:600}
+.cta-row{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap;position:relative;z-index:2}
+.btn{display:inline-block;padding:14px 26px;border-radius:6px;font-weight:600;font-size:15px;transition:.15s}
+.btn-solid{background:var(--gold);color:var(--ink)}
+.btn-solid:hover{background:#d9b63a;transform:translateY(-1px)}
+.btn-ghost{border:1px solid rgba(255,255,255,.4);color:#fff}
+.btn-ghost:hover{border-color:var(--indigo);color:#fff;background:rgba(67,87,232,.14)}
+.trust{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px}
+.trust span{font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;padding:7px 13px;border:1px solid rgba(255,255,255,.18);border-radius:4px;color:#D8DDE6}
+.trust span.hot{border-color:rgba(201,162,39,.55);color:var(--gold)}
+/* hero ledger panel */
+.panel{align-self:stretch;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:26px;position:relative;z-index:2;backdrop-filter:blur(4px)}
+.panel .phead{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--gold);text-transform:uppercase;margin-bottom:18px;display:flex;justify-content:space-between}
+.ledger-row{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px dashed rgba(255,255,255,.12);font-size:14px}
+.ledger-row:last-child{border-bottom:none}
+.ledger-row .k{color:#C6CCD8;white-space:nowrap}
+.ledger-row .v{font-family:var(--mono);color:#fff;font-size:13px;text-align:right}
+.metric-band{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid rgba(255,255,255,.14);margin-top:20px;padding-top:18px;gap:10px}
+.metric .n{font-family:var(--mono);font-size:21px;color:#fff;font-weight:500}
+.metric .n .up{color:var(--gold)}
+.metric .l{font-size:11px;color:#94A0B3;letter-spacing:.02em;font-family:var(--mono);text-transform:uppercase;margin-top:4px;line-height:1.4}
+.scrollcue{position:absolute;bottom:20px;right:30px;font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;z-index:2}
+.scrollcue .bar{display:inline-block;width:1px;height:14px;background:var(--gold);margin-right:8px;vertical-align:middle;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+
+/* ── Sections base ──────────────────────── */
+section{padding:90px 0}
+.sec-head{display:flex;align-items:baseline;gap:18px;margin-bottom:24px}
+.sec-head .num{font-family:var(--mono);color:var(--gold);font-size:13px}
+.sec-head h2{font-family:var(--serif);font-weight:600;font-size:clamp(30px,4vw,44px);letter-spacing:-.01em}
+.sec-head .sub{margin-left:auto;max-width:360px;font-size:15px;color:var(--steel);text-align:right;font-family:var(--mono)}
+.sec-intro{max-width:760px;font-size:17.5px;color:#3a424f;margin-bottom:44px}
+.sec-intro .kw{font-family:var(--mono);font-size:15px;color:var(--indigo)}
+
+/* ── Capability grid ────────────────────── */
+.cap-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.cap{background:var(--paper-2);border:1px solid var(--line);border-radius:14px;padding:30px 26px;transition:.18s;position:relative}
+.cap:hover{transform:translateY(-4px);box-shadow:0 18px 40px -24px rgba(11,18,30,.28);border-color:var(--ink)}
+.cap .tick{position:absolute;top:0;left:26px;width:34px;height:3px;border-radius:0 0 3px 3px;background:var(--gold)}
+.cap:nth-child(3n+2) .tick{background:var(--indigo)}
+.cap .cl{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;color:var(--steel);text-transform:uppercase;margin:14px 0 8px}
+.cap h3{font-family:var(--serif);font-size:21px;font-weight:600;line-height:1.25;margin-bottom:12px}
+.cap p{font-size:14.5px;color:#4a5263;line-height:1.62}
+.cap p .f{font-family:var(--mono);font-size:12.5px;color:var(--ink);background:#F1EFE8;border-radius:4px;padding:1px 6px;white-space:nowrap;display:inline-block;margin:2px 2px 0 0}
+
+/* ── Track record (ledger rail) ─────────── */
+.record{position:relative;padding-left:34px;border-left:1px solid var(--line);margin-left:6px}
+.record::before{content:"";position:absolute;left:-5px;top:6px;bottom:6px;width:9px;background:
+  linear-gradient(var(--gold) 0 0) no-repeat left top/9px 1px;}
+.role{position:relative;padding:30px 0 30px 6px;border-bottom:1px dashed var(--line)}
+.role:last-child{border-bottom:none}
+.role::before{content:"";position:absolute;left:-40px;top:40px;width:11px;height:11px;border-radius:50%;background:var(--paper);border:2px solid var(--gold)}
+.role.current::before{background:var(--gold);box-shadow:0 0 0 4px rgba(201,162,39,.18)}
+.role-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px}
+.role .org{font-family:var(--serif);font-weight:600;font-size:23px}
+.role .t{font-size:15.5px;color:var(--ink);font-weight:600}
+.role .d{font-family:var(--mono);font-size:12px;color:var(--steel);margin-left:auto;letter-spacing:.04em}
+.tag-cred{display:inline-block;font-family:var(--mono);font-size:10.5px;color:var(--gold);border:1px solid rgba(201,162,39,.5);padding:3px 9px;border-radius:4px;letter-spacing:.05em;text-transform:uppercase}
+.role .rbody{margin-top:14px}
+.role .rbody p{font-size:15.5px;color:#3a424f;margin-bottom:10px;max-width:860px}
+.role .rbody .hl{font-family:var(--mono);font-size:12.5px;color:var(--indigo)}
+.role .rbody ul{list-style:none;margin-top:6px;columns:2;column-gap:44px}
+.role .rbody ul.one,.role .rbody ul.two{columns:1}
+.role .rbody ul li{font-size:14.5px;color:#4a5263;padding:5px 0 5px 20px;position:relative;break-inside:avoid}
+.role .rbody ul li::before{content:"—";position:absolute;left:0;color:var(--gold);font-family:var(--mono);font-size:12px}
+
+/* ── Products / AI ──────────────────────── */
+.aiwrap{background:var(--ink);border-radius:20px;padding:58px;color:#fff;position:relative;overflow:hidden}
+.aiwrap::after{content:"";position:absolute;right:0;top:0;bottom:0;width:320px;background:radial-gradient(420px 320px at 100% 0,rgba(67,87,232,.4),transparent 60%)}
+.aiwrap .ahead{display:flex;align-items:baseline;gap:18px;margin-bottom:18px;position:relative;z-index:2}
+.aiwrap .ahead .num{font-family:var(--mono);color:var(--gold);font-size:13px}
+.aiwrap .ahead h2{font-family:var(--serif);font-weight:600;font-size:clamp(28px,4vw,40px)}
+.aiwrap .alede{color:#C6CCD8;max-width:700px;margin-bottom:42px;font-size:16.5px;line-height:1.65;position:relative;z-index:2}
+.ai-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;position:relative;z-index:2}
+.aicard{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:26px;transition:.18s;display:block}
+.aicard:hover{transform:translateY(-3px);border-color:rgba(201,162,39,.6);background:rgba(255,255,255,.07)}
+.aicard .prod{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:10.5px;color:var(--indigo);letter-spacing:.07em;text-transform:uppercase}
+.aicard .prod .live{color:#0B121E;background:var(--gold);padding:2px 8px;border-radius:3px;font-weight:600}
+.aicard h4{font-family:var(--serif);font-size:21px;margin:12px 0 8px;font-weight:600}
+.aicard p{font-size:14px;color:#C6CCD8;line-height:1.6}
+.aicard .gh{margin-top:16px;font-family:var(--mono);font-size:12px;color:var(--gold);display:flex;justify-content:space-between;align-items:center}
+.aicard .gh .arr{transition:transform .18s}
+.aicard:hover .gh .arr{transform:translateX(4px)}
+.ai-foot{position:relative;z-index:2;margin-top:28px;font-family:var(--mono);font-size:11.5px;color:#94A0B3;letter-spacing:.04em}
+
+/* ── Credentials ────────────────────────── */
+.cred-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:34px}
+.cred{background:var(--paper-2);border:1px solid var(--line);border-radius:14px;padding:28px 26px}
+.cred .let{font-family:var(--mono);color:var(--gold);font-size:12px;letter-spacing:.08em}
+.cred .cname{font-family:var(--serif);font-weight:600;font-size:21px;margin:10px 0 8px}
+.cred .cbody{font-size:14.5px;color:#4a5263;line-height:1.6}
+.cpd{background:#F1EFE8;border:1px solid var(--line);border-radius:14px;padding:26px 28px}
+.cpd .cl{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;color:var(--steel);text-transform:uppercase;margin-bottom:12px}
+.cpd p{font-size:14.5px;color:#3a424f;line-height:1.65}
+
+/* ── Contact ────────────────────────────── */
+.contact{background:var(--paper-2)}
+.contact-card{background:var(--ink);color:#fff;border-radius:20px;padding:64px 60px;text-align:center;position:relative;overflow:hidden}
+.contact-card::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 300px at 50% 0,rgba(201,162,39,.16),transparent 60%)}
+.contact-card h2{font-family:var(--serif);font-size:clamp(32px,5vw,48px);font-weight:600;margin-bottom:14px;position:relative;line-height:1.12}
+.contact-card h2 em{font-style:italic;font-weight:500;color:var(--gold)}
+.contact-card p{color:#C6CCD8;max-width:600px;margin:0 auto 36px;font-size:16.5px;position:relative}
+.contact-links{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;position:relative}
+.cbtn{font-family:var(--mono);font-size:14px;letter-spacing:.02em;padding:15px 26px;border-radius:8px;transition:.15s}
+.cbtn.mail{background:var(--gold);color:var(--ink);font-weight:600}
+.cbtn.mail:hover{background:#d9b63a;transform:translateY(-1px)}
+.cbtn.tel{border:1px solid rgba(255,255,255,.4);color:#fff}
+.cbtn.tel:hover{border-color:var(--gold);color:var(--gold)}
+.contact-meta{margin-top:32px;display:flex;justify-content:center;gap:34px;flex-wrap:wrap;font-size:14px;color:#94A0B3;position:relative}
+footer{padding:42px 0 56px;text-align:center;border-top:1px solid var(--line)}
+footer .fmono{font-family:var(--mono);font-size:11px;color:var(--steel);letter-spacing:.06em;text-transform:uppercase}
+footer .flinks{margin-top:12px;display:flex;justify-content:center;gap:26px;font-family:var(--mono);font-size:11.5px}
+footer .flinks a{color:var(--steel);letter-spacing:.05em}
+footer .flinks a:hover{color:var(--gold)}
+footer .fnote{margin-top:12px;font-size:12.5px;color:var(--steel)}
+
+/* ── Reveal ─────────────────────────────── */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}}
+
+/* ── Responsive ─────────────────────────── */
+@media (max-width:980px){
+  .cap-grid{grid-template-columns:repeat(2,1fr)}
+  .cred-grid{grid-template-columns:1fr}
+}
+@media (max-width:940px){
+  .hero-grid{grid-template-columns:1fr}
+  .cap-grid,.ai-grid{grid-template-columns:1fr}
+  .metric-band{grid-template-columns:repeat(2,1fr)}
+  .navlinks{display:none;position:absolute;top:70px;left:0;right:0;background:var(--paper);flex-direction:column;padding:22px;gap:18px;border-bottom:1px solid var(--line)}
+  .navlinks.open{display:flex}
+  .menutoggle{display:block}
+  .scrollcue{display:none}
+  .role .rbody ul{columns:1}
+  .record{padding-left:26px}
+  .role::before{left:-32px}
+  .aiwrap{padding:38px 26px}
+  .contact-card{padding:48px 26px}
+  .sec-head{flex-wrap:wrap}
+  .sec-head .sub{margin-left:0;text-align:left;width:100%}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">Charles Dennis<span class="dot">.</span><span class="qual">CGMA · ACMA · CISA · MSc</span></a>
+    <nav class="navlinks" id="nav" aria-label="Primary">
+      <a href="#capability"><span class="ann">01</span>Capability</a>
+      <a href="#record"><span class="ann">02</span>Record</a>
+      <a href="#products"><span class="ann">03</span>Products &amp; AI</a>
+      <a href="#credentials"><span class="ann">04</span>Credentials</a>
+      <a href="#contact" class="navcta">Get in touch</a>
+    </nav>
+    <button class="menutoggle" id="mt" aria-label="Menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span class="rule"></span>
+      <span class="mono">Local authority funding · Capital · Treasury · Agentic AI</span>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <h1 class="name">Charles<br><span class="thin">Dennis</span></h1>
+        <div class="roleline">
+          Senior <em>local-government</em> finance leader.
+          <div>
+            <span class="tag">MTFS</span><span class="tag">Capital governance</span><span class="tag">Treasury</span><span class="tag">Agentic AI</span>
+          </div>
+        </div>
+        <p class="lede">CCAB-qualified (CGMA, ACMA), CISA-certified and holding an MSc in Accounting &amp; Finance. Over ten years across councils, a £bn+ regulated rail network and a growing commercial practice — translating financial position into <strong>strategic advice for Section 151 Officers, leadership teams, Cabinet and scrutiny</strong>. Differentiated by hands-on finance transformation: Power BI, SQL, Python and practical agentic AI applied to forecasting, stress-testing and monitoring.</p>
+        <div class="cta-row">
+          <a class="btn btn-solid" href="#contact">Start a conversation</a>
+          <a class="btn btn-ghost" href="#products">See what I've built</a>
+        </div>
+        <div class="trust">
+          <span>CGMA</span><span>ACMA</span><span>CISA</span><span>MSc Acct &amp; Fin</span><span class="hot">Level 3 payment authorisation</span>
+        </div>
+      </div>
+
+      <div class="panel reveal">
+        <div class="phead"><span>Position Profile</span><span class="gold">REF: /finance/002</span></div>
+        <div>
+          <div class="ledger-row"><span class="k">Current role</span><span class="v">Project Finance Manager<br>Peterborough City Council</span></div>
+          <div class="ledger-row"><span class="k">Command</span><span class="v">Comprehensive settlement ·<br>rates retention · formulas</span></div>
+          <div class="ledger-row"><span class="k">Frameworks</span><span class="v">CIPFA Prudential ·<br>Treasury Management Code</span></div>
+          <div class="ledger-row"><span class="k">Authority</span><span class="v">Level 3 payment<br>authorisation</span></div>
+          <div class="ledger-row"><span class="k">Standing</span><span class="v">CCAB · CISA · MSc</span></div>
+          <div class="ledger-row"><span class="k">Location</span><span class="v">Northampton, UK</span></div>
+        </div>
+        <div class="metric-band">
+          <div class="metric"><div class="n">£250m<span class="up">+</span></div><div class="l">capital programme</div></div>
+          <div class="metric"><div class="n">£bn<span class="up">+</span></div><div class="l">regulated portfolio</div></div>
+          <div class="metric"><div class="n">10<span class="up">+</span></div><div class="l">years progressive</div></div>
+          <div class="metric"><div class="n">AI</div><div class="l">stress-test built</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scrollcue"><span class="bar"></span>scroll</div>
+</section>
+
+<!-- CAPABILITY -->
+<section id="capability">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="num">01</span>
+      <h2>Capability</h2>
+      <span class="sub">the full local-authority finance stack</span>
+    </div>
+    <p class="sec-intro reveal">A working command of the local authority funding model end to end — from the comprehensive settlement through to the balanced budget and s114 risk. <span class="kw">Six registers, one standard of evidence.</span></p>
+    <div class="cap-grid">
+      <div class="cap reveal"><span class="tick"></span>
+        <div class="cl">Core 01</div>
+        <h3>Medium-term financial planning &amp; budget setting</h3>
+        <p>MTFS/MTFP cycles, assumption modelling, revenue budget setting, centrally controlled and contingency budgets, fees and charges, reserves commitments and drawdowns, in-year monitoring, year-end forecasts, savings delivery, balanced-budget and s114 risk management.
+        <span class="f">MTFS</span><span class="f">s114</span><span class="f">contingency</span></p>
+      </div>
+      <div class="cap reveal"><span class="tick"></span>
+        <div class="cl">Core 02</div>
+        <h3>Local authority funding &amp; income forecasting</h3>
+        <p>Funding settlements, business rates — retention, targets, Growth and Investment Zones — funding formulas, council tax setting and yield, grants, Dedicated Schools Grant and demand-led pressures.
+        <span class="f">Rates retention</span><span class="f">DSG</span><span class="f">Settlements</span></p>
+      </div>
+      <div class="cap reveal"><span class="tick"></span>
+        <div class="cl">Core 03</div>
+        <h3>Capital governance &amp; strategic capital planning</h3>
+        <p>Capital strategy and pipeline prioritisation, Prudential Code statutory indicators, Capital Financing Requirement, Authorised Limit and Operational Boundary monitoring, scrutiny and audit-ready governance.
+        <span class="f">Prudential Code</span><span class="f">CFR</span><span class="f">AL/OB</span></p>
+      </div>
+      <div class="cap reveal"><span class="tick"></span>
+        <div class="cl">Core 04</div>
+        <h3>Business cases &amp; investment appraisal</h3>
+        <p>Green Book appraisal, option analysis, cost-benefit and whole-life costing, value-for-money challenge, funding-gate and financial-close readiness — taking multi-million-pound schemes through approval.
+        <span class="f">Green Book</span><span class="f">NPV</span><span class="f">VfM challenge</span></p>
+      </div>
+      <div class="cap reveal"><span class="tick"></span>
+        <div class="cl">Core 05</div>
+        <h3>Capital financing &amp; treasury oversight</h3>
+        <p>Daily treasury cash-flow and liquidity management, money market and deposit investment proposals under the CIPFA Treasury Management Code, MRP modelling, borrowing strategy, capital receipts, financing-cost sensitivity and Level 3 payment authorisation.
+        <span class="f">LMFA</span><span class="f">MRP</span><span class="f">Level 3</span></p>
+      </div>
+      <div class="cap reveal"><span class="tick"></span>
+        <div class="cl">Core 06</div>
+        <h3>Stakeholder management &amp; executive influence</h3>
+        <p>Trusted adviser to S151 Officers, CLT, Cabinet and scrutiny; regulator and external audit engagement; clear communication of contentious financial positions — challenging constructively and protecting value for money.
+        <span class="f">S151 adviser</span><span class="f">Scrutiny</span><span class="f">Audit</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRACK RECORD -->
+<section id="record" style="background:var(--paper-2)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="num">02</span>
+      <h2>Track record</h2>
+      <span class="sub">ten years' progressive, councils → £bn+ regulated → commercial</span>
+    </div>
+
+    <div class="record">
+      <div class="role current reveal">
+        <div class="role-top">
+          <div class="org">Peterborough City Council</div>
+          <div class="t">Project Finance Manager</div>
+          <div class="d">Jun 2026 — Present</div>
+          <span class="tag-cred">current</span>
+        </div>
+        <div class="rbody">
+          <p>Leads financial planning, investment appraisal and governance across the council's capital and operational portfolio, reporting to the Service Director for Financial Management and advising the Corporate Leadership Team, Cabinet and scrutiny.</p>
+          <p><span class="hl">MTFS · funding &amp; income forecasting · treasury · Prudential Code · Green Book · Level 3 authorisation</span></p>
+          <ul>
+            <li>Owns the integrated planning cycle: modelling pay/non-pay inflation, demand growth, council tax, rates and grant assumptions into risk-adjusted forecasts reconciled monthly.</li>
+            <li>Built an AI-supported MTFS stress-testing capability quantifying inflation, demand and funding-formula shocks against reserves adequacy and balanced-budget risk.</li>
+            <li>Leads funding/income forecasts: rates retention and growth positions, council tax yield, DSG and high-needs deficits, grants and developer contributions, with settlement sensitivities.</li>
+            <li>Owns day-to-day treasury cash flow — daily and forward resource forecasting that minimises short-term borrowing need and keeps financing costs under active control.</li>
+            <li>Leads treasury investment proposals — money market funds, term deposits and vehicles against the CIPFA Treasury Management Code risk/liquidity/return framework, securing committee approval for yield on scarce balances.</li>
+            <li>Exercises Level 3 payment authorisation — the highest delegated tier: final pre-disbursement control under Standing Financial Instructions against invalid or fraudulent payments.</li>
+            <li>Governs the capital programme against the Prudential Code: pipeline prioritisation, CFR, AL/OB headroom, MRP, borrowing and capital receipts, aligned with the MTFS.</li>
+            <li>Leads Green Book business-case development and challenge — NPV, payback and whole-life cost — through investment approval, gateways and funding gates to financial close.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role reveal">
+        <div class="role-top">
+          <div class="org">West Northamptonshire Council</div>
+          <div class="t">Finance Business Partner</div>
+          <div class="d">May 2023 — Jun 2026</div>
+        </div>
+        <div class="rbody">
+          <p>Senior corporate finance role across the full MTFS cycle for a large unitary authority: budget setting and revenue monitoring, funding and income forecasting, and strategic planning — owning centrally controlled budgets, reserves strategy and fees and charges alongside a <strong>£250m+ capital programme</strong>.</p>
+          <p><span class="hl">MTFS · contingency · reserves gatekeeping · IFRS 9 · unqualified audit opinion</span></p>
+          <ul>
+            <li>Led annual budget setting across service budgets and the capital programme — expenditure profiling, funding structure and MTFS alignment, as the recognised planning SME.</li>
+            <li>Owned centrally controlled budgets including risk contingency: drawdown criteria, allocations, virements and in-year rebalancing across directorates.</li>
+            <li>Convened the fees and charges workstream end to end — policy, legislative and cost-recovery inputs setting the income budget each year, plus in-year fee amendments.</li>
+            <li>Gatekeeper for reserves: commitment forecasting, drawdowns, transfers and technical journals with full audit trail over one of the most scrutinised balance-sheet positions.</li>
+            <li>Authored technical working papers behind the financial statements — aged debt, provisions, reserves, IFRS 9 credit-risk modelling; strengthened Unit 4/Agresso controls and SFI compliance to an unqualified audit.</li>
+            <li>Appraised major capital business cases — option analysis, cost-benefit, whole-life costing, NPV and affordability — securing approval for multi-million-pound proposals.</li>
+            <li>Built Power BI dashboards giving Board and scrutiny real-time visibility of spend, funding exposure, financing costs and affordability risk: a single version of the truth.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role reveal">
+        <div class="role-top">
+          <div class="org">Network Rail</div>
+          <div class="t">Finance Business Partner · Euston &amp; Birmingham New Street</div>
+          <div class="d">Dec 2018 — Apr 2023</div>
+        </div>
+        <div class="rbody">
+          <p>Financial leadership and investment governance for a <strong>£bn+ transport infrastructure portfolio</strong> under Office of Rail and Road regulation, across two of the UK's busiest stations.</p>
+          <p><span class="hl">ORR price controls · investment panels · ARUP assurance · PCR2015</span></p>
+          <ul>
+            <li>Facilitated investment panels scrutinising multi-million-pound capital proposals: delegated authority, option appraisal and value-for-money challenge.</li>
+            <li>Led financial performance ratification for Group Finance, presenting price, volume and mix analysis to external assurance (ARUP, on behalf of the ORR).</li>
+            <li>Built financial models assessing compliance risk, funding options and price controls; Power BI cost and supplier dashboards adopted by Group Finance and panels.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role reveal">
+        <div class="role-top">
+          <div class="org">Notary Northampton</div>
+          <div class="t">Head of Finance &amp; Strategy (Part-Time)</div>
+          <div class="d">Apr 2022 — Jun 2026</div>
+        </div>
+        <div class="rbody">
+          <p>Financial and commercial leadership for a growing professional-services firm, reporting to the partners.</p>
+          <p><span class="hl">controls from inception · Xero automation · Corporation Tax &amp; VAT · profitability analytics</span></p>
+          <ul class="two">
+            <li>Built the finance function from inception: controls, statutory compliance, Xero with automated reconciliation, and Power BI service-line profitability dashboards.</li>
+            <li>Owned the annual business planning cycle, cash-flow strategy, liquidity and funding decisions.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="role reveal">
+        <div class="role-top">
+          <div class="org">Earlier career</div>
+          <div class="t">Regulated utility · NHS · systems</div>
+          <div class="d">2007 — 2018</div>
+        </div>
+        <div class="rbody">
+          <p>A nine-year career at <strong>National Grid</strong> (Ofgem-regulated): critical national infrastructure, budget management and compliance. Earlier: NHS secondment to the NEL Commissioning Support Unit; Head of Systems at BB Consultanta Ltd.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS & AI -->
+<section id="products">
+  <div class="wrap">
+    <div class="aiwrap reveal">
+      <div class="ahead">
+        <span class="num">03</span>
+        <h2>Products &amp; AI in practice</h2>
+      </div>
+      <p class="alede">Agentic AI is not a buzzword here — it is an engineered practice. I am actively building products that support local-government finance objectives, and I run the same discipline over my own stack: Power BI, SQL, Python and local-inference AI applied to forecasting, stress-testing and monitoring.</p>
+      <div class="ai-grid">
+        <a class="aicard" href="https://fees.applied8.org/" target="_blank" rel="noopener">
+          <div class="prod"><span class="live">Live product</span> In development</div>
+          <h4>Fees &amp; Charges Manager</h4>
+          <p>A cost-recovery tool for councils: bring policy, legislative and cost inputs together to set and defend the fees and charges income budget — the workstream I convened annually at West Northamptonshire.</p>
+          <div class="gh"><span>fees.applied8.org</span><span class="arr">↗</span></div>
+        </a>
+        <a class="aicard" href="https://reserves.applied8.org/" target="_blank" rel="noopener">
+          <div class="prod"><span class="live">Live product</span> In development</div>
+          <h4>Reserves Manager</h4>
+          <p>Reserves strategy made auditable: commitment forecasting, drawdowns and transfers with a full audit trail over one of an authority's most scrutinised balance-sheet positions.</p>
+          <div class="gh"><span>reserves.applied8.org</span><span class="arr">↗</span></div>
+        </a>
+        <div class="aicard">
+          <div class="prod">Built in role · Peterborough CC</div>
+          <h4>MTFS Stress-Test Agent</h4>
+          <p>An AI-supported capability quantifying inflation, demand and funding-formula shocks against reserves adequacy and balanced-budget risk — feeding the MTFS conversation with evidence, not adjectives.</p>
+          <div class="gh"><span>agentic · decision support</span></div>
+        </div>
+        <div class="aicard">
+          <div class="prod">Practice</div>
+          <h4>Automation &amp; analytics</h4>
+          <p>Power BI, SQL and Python pipelines that automate financial analysis and lift reporting accuracy: single versions of the truth used at Board, scrutiny and — at Network Rail — by the regulator's assurance provider.</p>
+          <div class="gh"><span>local inference · privacy-first</span></div>
+        </div>
+      </div>
+      <div class="ai-foot">Governance-grade engineering: append-only audit trails, RBAC, and evidence chains built in — a CISA's instinct, not an afterthought.</div>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENTIALS -->
+<section id="credentials" style="background:var(--paper-2)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="num">04</span>
+      <h2>Credentials &amp; qualifications</h2>
+      <span class="sub">professionally recognised, continuously deepened</span>
+    </div>
+    <div class="cred-grid">
+      <div class="cred reveal">
+        <div class="let">CCAB</div>
+        <div class="cname">CGMA · ACMA (CIMA)</div>
+        <div class="cbody">Chartered Global Management Accountant and Associate Chartered Management Accountant, CCAB-recognised — the chartered standing behind every s114-adjacent judgement on this page.</div>
+      </div>
+      <div class="cred reveal">
+        <div class="let">ISACA</div>
+        <div class="cname">CISA</div>
+        <div class="cbody">Certified Information Systems Auditor: information assurance, IT governance, audit and control frameworks — why the systems I build are audit-ready by design.</div>
+      </div>
+      <div class="cred reveal">
+        <div class="let">Postgrad</div>
+        <div class="cname">MSc Accounting &amp; Finance</div>
+        <div class="cbody">Postgraduate grounding of strategic and financial management in rigorous academic analysis.</div>
+      </div>
+    </div>
+    <div class="cpd reveal">
+      <div class="cl">Continuing professional development — active study &amp; applied practice</div>
+      <p>CIPFA Prudential Code and Treasury Management Code · the Fairer Funding Review and business rates reforms · funding formulas and settlements · MTFS modelling · Green Book appraisal · Standing Financial Instructions · reserves policy and s114 risk management.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <h2>Let's build the financial case<br>for what's <em>next</em>.</h2>
+      <p>If you lead a capital programme, an MTFS or a finance transformation, I bring the command of the funding model, the governance discipline and the applied-AI capability to move it.</p>
+      <div class="contact-links">
+        <a class="cbtn mail" href="mailto:charles.dennis2@gmail.com">charles.dennis2@gmail.com</a>
+        <a class="cbtn tel" href="tel:+447535988191">07535 988191</a>
+      </div>
+      <div class="contact-meta">
+        <span>Northampton, UK</span>
+        <span>Public &amp; regulated sectors</span>
+        <span>Open to leadership conversations</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="fmono">Charles Dennis · Local Government Finance · Capital · Treasury · AI</div>
+  <div class="flinks">
+    <a href="https://fees.applied8.org/">Fees &amp; Charges Manager</a>
+    <a href="https://reserves.applied8.org/">Reserves Manager</a>
+  </div>
+  <div class="fnote">© <span id="yr"></span> finance.applied8.org · CCAB-qualified (CGMA, ACMA) · CISA · MSc Accounting &amp; Finance</div>
+</footer>
+
+<script>
+// year
+document.getElementById('yr').textContent = new Date().getFullYear();
+// mobile nav
+var mt=document.getElementById('mt'), nav=document.getElementById('nav');
+mt.addEventListener('click',function(){var o=nav.classList.toggle('open');mt.setAttribute('aria-expanded',o);});
+nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');mt.setAttribute('aria-expanded',false);});});
+// scroll progress hairline
+var prog=document.getElementById('progress');
+window.addEventListener('scroll',function(){
+  var h=document.documentElement;
+  var p=h.scrollTop/(h.scrollHeight-h.clientHeight);
+  prog.style.width=(p*100).toFixed(2)+'%';
+},{passive:true});
+// reveal on scroll (respecting reduced motion)
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+}else{
+  document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});
+}
+</script>
+</body>
+</html>
